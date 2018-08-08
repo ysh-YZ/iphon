@@ -1,0 +1,650 @@
+@import url(base.css);
+header{
+    width: 100%;
+    height: 40px;
+    background: #444444;
+}
+main{
+    /*width: 976px;*/
+    height: 100%;
+    background: #444444;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+div{
+    font-size: 10px;
+    color: #a8a8aa;
+}
+/*导航开始*/
+nav{
+    width: 100%;
+    height: 44px;
+    background: #323232;
+}
+nav ul{
+    /*width: 978px;*/
+    height: 100%;
+    background: #323232;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul a{
+   font-size: 12px;
+    color: #ffffff;
+}
+nav ul a:hover{
+    color: #444444;
+}
+/*导航结束*/
+/*广告开始*/
+section, .section ul{
+    width: 100%;
+    height: auto;
+}
+section ul li{
+    display: block;
+    width: 100%;
+    /*height: 648px;*/
+    background: #fafafa;
+    position: relative;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+
+section ul li .img1{
+    /*width: 1068px;*/
+    /*height: 337px;*/
+    position: absolute;
+    bottom: -22px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /*background: url('../img/iphone_x_large.jpg') no-repeat center;*/
+    /*background-size: 1068px 337px;*/
+
+}
+.photo1 .title {
+    width: 100%;
+    /*height: 86px;*/
+    background: #fafafa;
+    /*margin-top: 82px;*/
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo1 .title .title1{
+    width: 100%;
+    /*height: 53px;*/
+    background: #fafafa;
+    /*font-size: 40px;*/
+    color: #111111;
+    text-align: center;
+    font-weight: bold;
+
+}
+.photo1 .title .title2{
+    width: 100%;
+    /*height: 40px;*/
+    background: #fafafa;
+    /*font-size: 22px;*/
+    color: #111111;
+    text-align: center;
+    /*padding-top: 8px;*/
+}
+section ul .wz{
+    /*width: 196px;*/
+    /*height: 26px;*/
+    background: #fafafa;
+    /*margin: 16px auto 0;*/
+    display: flex;
+    justify-content: space-between;
+}
+section ul .wz1{
+    /*width: 112px;*/
+    /*height: 26px;*/
+    background: #fafafa;
+    /*font-size: 17px;*/
+    color: #0070c9;
+    /*line-height: 26px;*/
+}
+section ul .wz2{
+    /*width: 54px;*/
+    /*height: 26px;*/
+    background: #fafafa;
+    /*font-size: 17px;*/
+    color: #0070c9;
+    /*line-height: 26px;*/
+}
+/*第一个结束*/
+/*第二个开始*/
+.photo2{
+    background: #f5f5f5;
+}
+section ul .photo2 .img1{
+    /*width: 930px;*/
+    /*height: 405px;*/
+    position: absolute;
+    bottom: -22px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /*background: url('../img/ipad_mediumtall.jpg') no-repeat center;*/
+    /*background-size: 930px 405px;*/
+
+}
+.photo2 .title {
+    width: 100%;
+    /*height: 92px;*/
+    background: #f5f5f5;
+    /*margin-top: 83px;*/
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo2 .title .title1{
+    width: 100%;
+    /*height: 53px;*/
+    background: #f5f5f5;
+    /*font-size: 40px;*/
+    color: #111111;
+    text-align: center;
+    font-weight: bold;
+
+}
+.photo2 .title .title2{
+    width: 100%;
+    /*height: 40px;*/
+    background: #f5f5f5;
+    /*font-size: 22px;*/
+    color: #111111;
+    text-align: center;
+    /*padding-top: 8px;*/
+}
+section ul .wz{
+    width: 196px;
+    height: 26px;
+    /*background: #f5f5f5;*/
+    margin: 16px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+section ul .wz1{
+    width: 112px;
+    height: 26px;
+    /*background:#f5f5f5;*/
+    font-size: 17px;
+    color: #0070c9;
+    line-height: 26px;
+}
+section ul .wz2{
+    width: 54px;
+    height: 26px;
+    /*background: #fafafa;*/
+    font-size: 17px;
+    color: #0070c9;
+    line-height: 26px;
+}
+section ul .photo2 .wz{
+    width: 196px;
+    height: 26px;
+    /*background: #f5f5f5;*/
+    margin: 16px auto 0;
+    display: flex;
+    justify-content: space-between;
+    background: #f5f5f5;
+}
+section ul .photo2 .wz1{
+    width: 112px;
+    height: 26px;
+    /*background:#f5f5f5;*/
+    font-size: 17px;
+    color: #0070c9;
+    line-height: 26px;
+    background: #f5f5f5;
+}
+section ul .photo2 .wz2{
+    width: 54px;
+    height: 26px;
+    /*background: #fafafa;*/
+    font-size: 17px;
+    color: #0070c9;
+    line-height: 26px;
+    background: #f5f5f5;
+}
+/*第二个结束*/
+/*第三个结束*/
+/*六格框开始  */
+.list1{
+    width: 100%;
+    height: auto;
+
+}
+.list1 ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list1 ul li{
+    /*width: 50%;*/
+    /*height: 592px;*/
+    background: #ff4045;
+    /*border-left: 12px solid#2196f3;*/
+    /*border-right: 6px solid#2196f3;*/
+    border-bottom: 12px solid#ffffff;
+    box-sizing: border-box;
+    position: relative;
+
+}
+/*.list1 ul li:nth-child(2n){*/
+    /*border-left: 6px solid#2196f3;*/
+    /*border-right: 12px solid#2196f3;*/
+    /*box-sizing: border-box;*/
+
+/*}*/
+.list1 ul li h4{
+    /*line-height: 48px;*/
+    /*font-size: 34px;*/
+    color: #ffffff;
+    text-align: center;
+    /*position: absolute;*/
+    /*bottom: 94px;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+/*.adv_wz{*/
+    /*width: 195px;*/
+    /*height: 34px;*/
+    /*background: #0ff31a;*/
+    /*position: absolute;*/
+    /*bottom: 71px;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+/*}*/
+/*.adv_wz1{*/
+    /*width: 85px;*/
+    /*height: 100%;*/
+    /*background: #2196f3;*/
+    /*font-size: 14px;*/
+    /*color: #ffffff;*/
+    /*line-height: 34px;*/
+/*}*/
+/*.adv_wz2{*/
+    /*width: 82px;*/
+    /*height: 100%;*/
+    /*background: #2196f3;*/
+    /*font-size: 14px;*/
+    /*color: #ffffff;*/
+    /*line-height:34px;*/
+/*}*/
+/*六格框结束  */
+/*广告结束*/
+/*响应式*/
+/*>1024px*/
+@media screen and (min-width: 1024px){
+    main{
+        width: 976px;
+    }
+    .max{
+        display: block;
+    }
+    .min{
+        display: none;
+    }
+    nav ul{
+        width: 976px;
+    }
+    section ul li{
+        height: 648px;
+
+    }
+    .photo1 .title {
+        height: 80px;
+        margin-top: 82px;
+    }
+    .photo1 .title .title1{
+        height: 53px;
+        font-size: 40px;
+
+    }
+    .photo1 .title .title2{
+        height: 34px;
+        font-size: 22px;
+    }
+    section ul .wz{
+        width: 196px;
+        height: 26px;
+        margin: 16px auto 0;
+    }
+    section ul .wz1{
+        width: 112px;
+        height: 26px;
+        font-size: 17px;
+        line-height: 26px;
+    }
+    section ul .wz2{
+        width: 54px;
+        height: 26px;
+        font-size: 17px;
+        line-height: 26px;
+    }
+    section ul li .img1{
+        width: 1068px;
+        height: 337px;
+        background: url('../img/iphone_x_large.jpg') no-repeat center;
+        background-size: 1068px 337px;
+
+    }
+    section ul .photo2 .img1{
+        width: 930px;
+        height: 405px;
+        background: url('../img/ipad_largetall.jpg') no-repeat center;
+        background-size: 930px 405px;
+
+    }
+    .photo2 .title {
+        height: 86px;
+        margin-top: 83px;
+    }
+    .photo2 .title .title1{
+        height: 53px;
+        font-size: 40px;
+
+    }
+    .photo2 .title .title2{
+        height: 34px;
+        font-size: 22px;
+    }
+    section ul .photo2 .wz{
+        width: 196px;
+        height: 26px;
+        margin: 16px auto 0;
+    }
+    section ul .photo2 .wz1{
+        width: 112px;
+        height: 26px;
+        font-size: 17px;
+        line-height: 26px;
+    }
+    section ul .photo2 .wz2{
+        width: 54px;
+        height: 26px;
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .list1 ul li{
+        width: 50%;
+        height: 592px;
+        border-left: 12px solid#ffffff;
+        border-right: 6px solid#ffffff;
+    }
+    .list1 ul li:nth-child(2n){
+        border-left: 6px solid#ffffff;
+        border-right: 12px solid#ffffff;
+        box-sizing: border-box;
+    }
+    .list1 ul .adv{
+        background: url('../img/黑白大2.jpg') no-repeat center;
+        background-size: 1262px 580px;
+
+    }
+    .list1 ul li h4{
+        line-height: 48px;
+        font-size: 34px;
+        position: absolute;
+        bottom: 112px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+/*<1024px*/
+@media screen and (max-width: 1024px){
+    main{
+        padding-right: 22px;
+    }
+    .max{
+        display: block;
+    }
+    .min{
+        display: none;
+    }
+    nav ul{
+        padding: 0 22px;
+    }
+    section ul li{
+        height: 648px;
+
+    }
+    .photo1 .title {
+        height: 82px;
+        margin-top: 94px;
+    }
+    .photo1 .title .title1{
+        height: 49px;
+        font-size: 31px;
+
+    }
+    .photo1 .title .title2{
+        height: 28px;
+        font-size: 19px;
+    }
+    section ul .wz{
+        width: 172px;
+        height: 18px;
+        margin: 14px auto 0;
+    }
+    section ul .wz1{
+        width: 97px;
+        height: 18px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    section ul .wz2{
+        width: 50px;
+        height: 18px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    section ul li .img1{
+        width: 736px;
+        height: 336px;
+        background: url('../img/iphone_x_medium.jpg') no-repeat center;
+        background-size: 736px 336px;
+
+    }
+    section ul .photo2 .img1{
+        width: 650px;
+        height: 370px;
+        background: url('../img/ipad2.jpg') no-repeat center;
+        background-size: 650px 370px;
+
+    }
+    .photo2 .title {
+        height: 84px;
+        margin-top: 110px;
+    }
+    .photo2 .title .title1{
+        height: 46px;
+        font-size: 32px;
+
+    }
+    .photo2 .title .title2{
+        height: 32px;
+        font-size: 20px;
+    }
+    section ul .photo2 .wz{
+        width: 172px;
+        height: 18px;
+        margin: 14px auto 0;
+    }
+    section ul .photo2 .wz1{
+        width: 97px;
+        height: 18px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    section ul .photo2 .wz2{
+        width: 50px;
+        height: 18px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .list1 ul li{
+        width: 50%;
+        height: 502px;
+        border-left: 12px solid#ffffff;
+        border-right: 6px solid#ffffff;
+    }
+    .list1 ul li:nth-child(2n){
+        border-left: 6px solid#ffffff;
+        border-right: 12px solid#ffffff;
+        box-sizing: border-box;
+    }
+    .list1 ul .adv{
+        background: url('../img/黑白中.jpg') no-repeat center;
+        background-size: 516px 490px;
+
+    }
+    .list1 ul li h4{
+        line-height: 44px;
+        font-size: 28px;
+        position: absolute;
+        bottom: 120px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+/*<768px*/
+@media screen and (max-width: 768px){
+    .max{
+        display: none;
+    }
+    .min{
+        display: block;
+    }
+    section ul li{
+        height: 500px;
+
+    }
+    .photo1 .title {
+        height: 68px;
+        margin-top: 27px;
+    }
+    .photo1 .title .title1{
+        height: 40px;
+        font-size: 26px;
+
+    }
+    .photo1 .title .title2{
+        height: 27px;
+        font-size: 14px;
+    }
+    section ul .wz{
+        width: 164px;
+        height: 18px;
+        margin: 10px auto 0;
+    }
+    section ul .wz1{
+        width: 92px;
+        height: 18px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    section ul .wz2{
+        width: 46px;
+        height: 18px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    section ul li .img1{
+        width: 320px;
+        height: 353px;
+        background: url('../img/iphone_x_small.jpg') no-repeat center;
+        background-size: 320px 353px;
+
+    }
+    section ul .photo2 .img1{
+        width: 228px;
+        height: 340px;
+        background: url('../img/ipad_small.jpg') no-repeat center;
+        background-size: 228px 340px;
+
+    }
+    .photo2 .title {
+        height: 68px;
+        margin-top: 35px;
+    }
+    .photo2 .title .title1{
+        height: 38px;
+        font-size: 25px;
+
+    }
+    .photo2 .title .title2{
+        height: 23px;
+        font-size: 16px;
+    }
+    section ul .photo2 .wz{
+        width: 164px;
+        height: 18px;
+        margin: 10px auto 0;
+    }
+    section ul .photo2 .wz1{
+        width: 92px;
+        height: 18px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    section ul .photo2 .wz2{
+        width: 46px;
+        height: 18px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .list1 ul li{
+        width: 100%;
+        height: 512px;
+        border-left: none;
+        border-right: none;
+    }
+    .list1 ul li:nth-child(2n){
+        border-left: none;
+        border-right: none;
+        /*box-sizing: border-box;*/
+    }
+    .list1 ul .adv{
+        background: url('../img/黑白小.jpg') no-repeat center;
+        background-size: 736px 548px;
+
+    }
+    .list1 ul li h4{
+        line-height: 40px;
+        font-size: 28px;
+        position: absolute;
+        bottom: 114px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
